@@ -18,11 +18,8 @@ db.grades53.aggregate([
       classAverage: { $avg: "$studentAverage" }
     }
   },
-  { $sort:
-    {
-      classAverage: -1
-    }
-  },
+  { $sort: { classAverage: -1 } },
+  { $limit: 1 },
   { $project:
     {
       _id: 0,
