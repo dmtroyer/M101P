@@ -1,0 +1,165 @@
+Sun May 12 22:53:00.065 [initandlisten] MongoDB starting : pid=18333 port=27018 dbpath=/data/rs2 64-bit host=dmac2.home
+Sun May 12 22:53:00.065 [initandlisten] 
+Sun May 12 22:53:00.065 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+Sun May 12 22:53:00.065 [initandlisten] db version v2.4.3
+Sun May 12 22:53:00.065 [initandlisten] git version: fe1743177a5ea03e91e0052fb5e2cb2945f6d95f
+Sun May 12 22:53:00.065 [initandlisten] build info: Darwin bs-osx-106-x86-64-1.local 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun  7 16:33:36 PDT 2011; root:xnu-1504.15.3~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_49
+Sun May 12 22:53:00.065 [initandlisten] allocator: system
+Sun May 12 22:53:00.065 [initandlisten] options: { dbpath: "/data/rs2", fork: true, logpath: "2.log", port: 27018, replSet: "m101", smallfiles: true }
+Sun May 12 22:53:00.066 [initandlisten] journal dir=/data/rs2/journal
+Sun May 12 22:53:00.066 [initandlisten] recover : no journal files present, no recovery needed
+Sun May 12 22:53:00.103 [FileAllocator] allocating new datafile /data/rs2/local.ns, filling with zeroes...
+Sun May 12 22:53:00.104 [FileAllocator] creating directory /data/rs2/_tmp
+Sun May 12 22:53:00.180 [FileAllocator] done allocating datafile /data/rs2/local.ns, size: 16MB,  took 0.075 secs
+Sun May 12 22:53:00.222 [FileAllocator] allocating new datafile /data/rs2/local.0, filling with zeroes...
+Sun May 12 22:53:00.249 [FileAllocator] done allocating datafile /data/rs2/local.0, size: 16MB,  took 0.026 secs
+Sun May 12 22:53:00.408 [initandlisten] command local.$cmd command: { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0  reslen:37 305ms
+Sun May 12 22:53:00.408 [websvr] admin web console waiting for connections on port 28018
+Sun May 12 22:53:00.408 [initandlisten] waiting for connections on port 27018
+Sun May 12 22:53:00.410 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:53:00.410 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+Sun May 12 22:53:10.412 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:53:20.413 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:53:30.414 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:53:40.415 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:53:50.416 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:54:00.418 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:54:10.418 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:54:20.419 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:54:30.421 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:54:40.421 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:54:50.422 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:55:00.423 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:55:10.424 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:55:20.425 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:55:30.426 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:55:35.034 [initandlisten] connection accepted from 127.0.0.1:55967 #1 (1 connection now open)
+Sun May 12 22:55:40.427 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Sun May 12 22:55:45.452 [initandlisten] connection accepted from 127.0.0.1:55970 #2 (2 connections now open)
+Sun May 12 22:55:50.428 [rsStart] trying to contact localhost:27017
+Sun May 12 22:55:50.429 [rsStart] trying to contact localhost:27019
+Sun May 12 22:55:50.431 [rsStart] replSet I am localhost:27018
+Sun May 12 22:55:50.431 [rsStart] replSet got config version 1 from a remote, saving locally
+Sun May 12 22:55:50.431 [rsStart] replSet info saving a newer config version to local.system.replset
+Sun May 12 22:55:50.433 [rsStart] replSet saveConfigLocally done
+Sun May 12 22:55:50.434 [rsStart] replSet STARTUP2
+Sun May 12 22:55:50.434 [rsSync] ******
+Sun May 12 22:55:50.434 [rsSync] creating replication oplog of size: 192MB...
+Sun May 12 22:55:50.434 [FileAllocator] allocating new datafile /data/rs2/local.1, filling with zeroes...
+Sun May 12 22:55:52.432 [rsHealthPoll] replSet member localhost:27019 is up
+Sun May 12 22:55:52.432 [rsHealthPoll] replSet member localhost:27017 is up
+Sun May 12 22:55:52.432 [rsHealthPoll] replSet member localhost:27019 is now in state STARTUP2
+Sun May 12 22:55:52.432 [rsHealthPoll] replSet member localhost:27017 is now in state SECONDARY
+Sun May 12 22:55:53.694 [FileAllocator] done allocating datafile /data/rs2/local.1, size: 256MB,  took 3.259 secs
+Sun May 12 22:55:53.882 [rsSync] ******
+Sun May 12 22:55:53.882 [rsSync] replSet initial sync pending
+Sun May 12 22:55:53.882 [rsSync] replSet initial sync need a member to be primary or secondary to do our initial sync
+Sun May 12 22:55:56.457 [conn1] end connection 127.0.0.1:55967 (1 connection now open)
+Sun May 12 22:55:56.458 [initandlisten] connection accepted from 127.0.0.1:55985 #3 (3 connections now open)
+Sun May 12 22:55:56.459 [conn3] replSet RECOVERING
+Sun May 12 22:55:56.459 [conn3] replSet info voting yea for localhost:27017 (0)
+Sun May 12 22:55:58.436 [rsHealthPoll] replSet member localhost:27019 is now in state RECOVERING
+Sun May 12 22:55:58.436 [rsHealthPoll] replSet member localhost:27017 is now in state PRIMARY
+Sun May 12 22:56:06.441 [rsHealthPoll] replSet member localhost:27019 is now in state SECONDARY
+Sun May 12 22:56:09.883 [rsSync] replSet initial sync pending
+Sun May 12 22:56:09.884 [rsSync] replSet syncing to: localhost:27017
+Sun May 12 22:56:09.886 [rsSync] build index local.me { _id: 1 }
+Sun May 12 22:56:09.897 [rsSync] build index done.  scanned 0 total records. 0.011 secs
+Sun May 12 22:56:09.899 [rsSync] build index local.replset.minvalid { _id: 1 }
+Sun May 12 22:56:09.915 [rsSync] build index done.  scanned 0 total records. 0.015 secs
+Sun May 12 22:56:09.915 [rsSync] replSet initial sync drop all databases
+Sun May 12 22:56:09.915 [rsSync] dropAllDatabasesExceptLocal 1
+Sun May 12 22:56:09.915 [rsSync] replSet initial sync clone all databases
+Sun May 12 22:56:09.915 [rsSync] replSet initial sync data copy, starting syncup
+Sun May 12 22:56:09.916 [rsSync] oplog sync 1 of 3
+Sun May 12 22:56:09.916 [rsSync] oplog sync 2 of 3
+Sun May 12 22:56:09.916 [rsSync] replSet initial sync building indexes
+Sun May 12 22:56:09.916 [rsSync] oplog sync 3 of 3
+Sun May 12 22:56:09.916 [rsSync] replSet initial sync finishing up
+Sun May 12 22:56:09.958 [rsSync] replSet set minValid=5190562a:1
+Sun May 12 22:56:09.976 [rsSync] replSet initial sync done
+Sun May 12 22:56:10.451 [rsBackgroundSync] replSet syncing to: localhost:27017
+Sun May 12 22:56:10.977 [rsSyncNotifier] replset setting oplog notifier to localhost:27017
+Sun May 12 22:56:11.978 [rsSync] replSet SECONDARY
+Sun May 12 22:56:13.470 [conn2] end connection 127.0.0.1:55970 (1 connection now open)
+Sun May 12 22:56:13.471 [initandlisten] connection accepted from 127.0.0.1:55997 #4 (2 connections now open)
+Sun May 12 22:56:26.476 [conn3] end connection 127.0.0.1:55985 (1 connection now open)
+Sun May 12 22:56:26.476 [initandlisten] connection accepted from 127.0.0.1:56000 #5 (2 connections now open)
+Sun May 12 22:56:43.489 [conn4] end connection 127.0.0.1:55997 (1 connection now open)
+Sun May 12 22:56:43.490 [initandlisten] connection accepted from 127.0.0.1:56004 #6 (2 connections now open)
+Sun May 12 22:56:56.495 [conn5] end connection 127.0.0.1:56000 (1 connection now open)
+Sun May 12 22:56:56.495 [initandlisten] connection accepted from 127.0.0.1:56018 #7 (2 connections now open)
+Sun May 12 22:57:13.509 [conn6] end connection 127.0.0.1:56004 (1 connection now open)
+Sun May 12 22:57:13.509 [initandlisten] connection accepted from 127.0.0.1:56032 #8 (2 connections now open)
+Sun May 12 22:57:26.513 [conn7] end connection 127.0.0.1:56018 (1 connection now open)
+Sun May 12 22:57:26.513 [initandlisten] connection accepted from 127.0.0.1:56034 #9 (2 connections now open)
+Sun May 12 22:57:34.716 [initandlisten] connection accepted from 127.0.0.1:56052 #10 (3 connections now open)
+Sun May 12 22:57:34.720 [conn10] end connection 127.0.0.1:56052 (2 connections now open)
+Sun May 12 22:57:43.527 [conn8] end connection 127.0.0.1:56032 (1 connection now open)
+Sun May 12 22:57:43.528 [initandlisten] connection accepted from 127.0.0.1:56055 #11 (2 connections now open)
+Sun May 12 22:57:56.532 [conn9] end connection 127.0.0.1:56034 (1 connection now open)
+Sun May 12 22:57:56.532 [initandlisten] connection accepted from 127.0.0.1:56062 #12 (2 connections now open)
+Sun May 12 22:58:13.545 [conn11] end connection 127.0.0.1:56055 (1 connection now open)
+Sun May 12 22:58:13.546 [initandlisten] connection accepted from 127.0.0.1:56136 #13 (2 connections now open)
+Sun May 12 22:58:26.551 [conn12] end connection 127.0.0.1:56062 (1 connection now open)
+Sun May 12 22:58:26.551 [initandlisten] connection accepted from 127.0.0.1:56151 #14 (2 connections now open)
+Sun May 12 22:58:43.565 [conn13] end connection 127.0.0.1:56136 (1 connection now open)
+Sun May 12 22:58:43.565 [initandlisten] connection accepted from 127.0.0.1:56180 #15 (2 connections now open)
+Sun May 12 22:58:56.570 [conn14] end connection 127.0.0.1:56151 (1 connection now open)
+Sun May 12 22:58:56.571 [initandlisten] connection accepted from 127.0.0.1:56184 #16 (2 connections now open)
+Sun May 12 22:59:13.583 [conn15] end connection 127.0.0.1:56180 (1 connection now open)
+Sun May 12 22:59:13.583 [initandlisten] connection accepted from 127.0.0.1:56216 #17 (2 connections now open)
+Sun May 12 22:59:26.587 [conn16] end connection 127.0.0.1:56184 (1 connection now open)
+Sun May 12 22:59:26.587 [initandlisten] connection accepted from 127.0.0.1:56230 #18 (2 connections now open)
+Sun May 12 22:59:43.604 [conn17] end connection 127.0.0.1:56216 (1 connection now open)
+Sun May 12 22:59:43.604 [initandlisten] connection accepted from 127.0.0.1:56236 #19 (2 connections now open)
+Sun May 12 22:59:56.606 [conn18] end connection 127.0.0.1:56230 (1 connection now open)
+Sun May 12 22:59:56.606 [initandlisten] connection accepted from 127.0.0.1:56241 #20 (2 connections now open)
+Sun May 12 23:00:13.623 [conn19] end connection 127.0.0.1:56236 (1 connection now open)
+Sun May 12 23:00:13.624 [initandlisten] connection accepted from 127.0.0.1:56258 #21 (2 connections now open)
+Sun May 12 23:00:26.624 [conn20] end connection 127.0.0.1:56241 (1 connection now open)
+Sun May 12 23:00:26.624 [initandlisten] connection accepted from 127.0.0.1:56266 #22 (2 connections now open)
+Sun May 12 23:00:43.642 [conn21] end connection 127.0.0.1:56258 (1 connection now open)
+Sun May 12 23:00:43.643 [initandlisten] connection accepted from 127.0.0.1:56286 #23 (2 connections now open)
+Sun May 12 23:00:56.643 [conn22] end connection 127.0.0.1:56266 (1 connection now open)
+Sun May 12 23:00:56.643 [initandlisten] connection accepted from 127.0.0.1:56302 #24 (2 connections now open)
+Sun May 12 23:01:13.662 [conn23] end connection 127.0.0.1:56286 (1 connection now open)
+Sun May 12 23:01:13.663 [initandlisten] connection accepted from 127.0.0.1:56308 #25 (3 connections now open)
+Sun May 12 23:01:26.661 [conn24] end connection 127.0.0.1:56302 (1 connection now open)
+Sun May 12 23:01:26.661 [initandlisten] connection accepted from 127.0.0.1:56311 #26 (2 connections now open)
+Sun May 12 23:01:43.683 [conn25] end connection 127.0.0.1:56308 (1 connection now open)
+Sun May 12 23:01:43.683 [initandlisten] connection accepted from 127.0.0.1:56318 #27 (2 connections now open)
+Sun May 12 23:01:56.679 [conn26] end connection 127.0.0.1:56311 (1 connection now open)
+Sun May 12 23:01:56.679 [initandlisten] connection accepted from 127.0.0.1:56342 #28 (3 connections now open)
+Sun May 12 23:02:13.702 [conn27] end connection 127.0.0.1:56318 (1 connection now open)
+Sun May 12 23:02:13.703 [initandlisten] connection accepted from 127.0.0.1:56348 #29 (2 connections now open)
+Sun May 12 23:02:26.697 [conn28] end connection 127.0.0.1:56342 (1 connection now open)
+Sun May 12 23:02:26.697 [initandlisten] connection accepted from 127.0.0.1:56352 #30 (2 connections now open)
+Sun May 12 23:02:43.723 [conn29] end connection 127.0.0.1:56348 (1 connection now open)
+Sun May 12 23:02:43.723 [initandlisten] connection accepted from 127.0.0.1:56359 #31 (2 connections now open)
+Sun May 12 23:02:56.717 [conn30] end connection 127.0.0.1:56352 (1 connection now open)
+Sun May 12 23:02:56.717 [initandlisten] connection accepted from 127.0.0.1:56372 #32 (2 connections now open)
+Sun May 12 23:03:13.742 [conn31] end connection 127.0.0.1:56359 (1 connection now open)
+Sun May 12 23:03:13.743 [initandlisten] connection accepted from 127.0.0.1:56396 #33 (2 connections now open)
+Sun May 12 23:03:26.735 [conn32] end connection 127.0.0.1:56372 (1 connection now open)
+Sun May 12 23:03:26.736 [initandlisten] connection accepted from 127.0.0.1:56405 #34 (2 connections now open)
+Sun May 12 23:03:43.767 [conn33] end connection 127.0.0.1:56396 (1 connection now open)
+Sun May 12 23:03:43.768 [initandlisten] connection accepted from 127.0.0.1:56434 #35 (2 connections now open)
+Sun May 12 23:03:56.757 [conn34] end connection 127.0.0.1:56405 (1 connection now open)
+Sun May 12 23:03:56.757 [initandlisten] connection accepted from 127.0.0.1:56436 #36 (2 connections now open)
+Sun May 12 23:04:13.786 [conn35] end connection 127.0.0.1:56434 (1 connection now open)
+Sun May 12 23:04:13.786 [initandlisten] connection accepted from 127.0.0.1:56521 #37 (2 connections now open)
+Sun May 12 23:04:26.784 [conn36] end connection 127.0.0.1:56436 (1 connection now open)
+Sun May 12 23:04:26.784 [initandlisten] connection accepted from 127.0.0.1:56534 #38 (2 connections now open)
+Sun May 12 23:04:43.808 [conn37] end connection 127.0.0.1:56521 (1 connection now open)
+Sun May 12 23:04:43.809 [initandlisten] connection accepted from 127.0.0.1:56540 #39 (2 connections now open)
+Sun May 12 23:04:56.803 [conn38] end connection 127.0.0.1:56534 (1 connection now open)
+Sun May 12 23:04:56.803 [initandlisten] connection accepted from 127.0.0.1:56542 #40 (2 connections now open)
+Sun May 12 23:05:13.829 [conn39] end connection 127.0.0.1:56540 (1 connection now open)
+Sun May 12 23:05:13.829 [initandlisten] connection accepted from 127.0.0.1:56550 #41 (2 connections now open)
+Sun May 12 23:05:26.844 [conn40] end connection 127.0.0.1:56542 (1 connection now open)
+Sun May 12 23:05:26.845 [initandlisten] connection accepted from 127.0.0.1:56569 #42 (2 connections now open)
+Sun May 12 23:05:43.846 [conn41] end connection 127.0.0.1:56550 (1 connection now open)
+Sun May 12 23:05:43.847 [initandlisten] connection accepted from 127.0.0.1:56583 #43 (2 connections now open)
+Sun May 12 23:05:56.861 [conn42] end connection 127.0.0.1:56569 (1 connection now open)
+Sun May 12 23:05:56.861 [initandlisten] connection accepted from 127.0.0.1:56591 #44 (2 connections now open)
